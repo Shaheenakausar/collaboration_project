@@ -1,0 +1,7 @@
+com\niit\junittestcases\ForumDAOTestCase.class
+com\niit\junittestcases\FriendDAOTestCase.class
+com\niit\junittestcases\ForumCommentDAOTestCase.class
+com\niit\junittestcases\BlogDAOTestCase.class
+com\niit\junittestcases\UserDAOTestCase.class
+com\niit\junittestcases\JobDAOTestCase.class
+com\niit\junittestcases\BlogCommentDAOTestCase.class
