@@ -7,11 +7,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CollaborationProjectBackend Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	<properties>
-		<!-- <org.springframework-version>4.3.3.RELEASE</org.springframework-version> -->
-		<dbh2.version>1.4.195</dbh2.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -153,6 +148,25 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<!-- to work with latest version of JRE -->
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>	
 		<finalName>CollaborationProjectBackend</finalName>
 	</build>
 </project>
