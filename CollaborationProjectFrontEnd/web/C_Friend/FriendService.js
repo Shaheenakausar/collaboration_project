@@ -1,6 +1,6 @@
 myApp.service("FriendService", function($http, $q) {
 	console.log("Starting friend service");
-	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackEnd';
+	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackend';
 	
 	return {
 		getNotMyFriendsList : function(){

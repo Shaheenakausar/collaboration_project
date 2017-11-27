@@ -1,7 +1,7 @@
 myApp.service("BlogService", function($http, $q) {
 	console.log("Starting blog service");
 	
-	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackEnd';
+	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackend';
 
 	return {
 		//getAllBlogs

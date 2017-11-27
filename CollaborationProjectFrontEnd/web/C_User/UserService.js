@@ -1,7 +1,7 @@
 myApp.service('UserService', function($http, $q) {
 	
 	console.log('Starting of UserService');
-	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackEnd';
+	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackend';
 	
 	return {
 		

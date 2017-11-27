@@ -1,7 +1,7 @@
 myApp.service("JobService", function($http, $q) {
 	console.log("Starting job service");
 	
-	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackEnd';
+	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackend';
 	
 	return{
 		//getAllJobs

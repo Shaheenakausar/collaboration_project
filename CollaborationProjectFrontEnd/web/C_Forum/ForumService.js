@@ -1,7 +1,7 @@
 myApp.service("ForumService", function($http, $q) {
 	console.log("Starting forum service");
 	
-	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackEnd';
+	var BackendUrl = 'http://localhost:8080/CollaborationProjectBackend';
 
 	return {
 		//getAllForums
